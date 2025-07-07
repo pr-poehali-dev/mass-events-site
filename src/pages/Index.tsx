@@ -97,7 +97,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
@@ -110,7 +110,9 @@ const Index = () => {
                 <h1 className="text-xl font-bold text-gray-900">
                   СПб ГКУ "Дирекция массовых мероприятий"
                 </h1>
-                <p className="text-sm text-gray-600">Санкт-Петербург</p>
+                <p className="text-sm text-gray-600">
+                  Делаем события незабываемыми! 🎉
+                </p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -133,15 +135,14 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-6 bg-white/20 text-white border-white/30">
-                Официальный государственный орган
+                🔥 Официальный эвент-мейкер города
               </Badge>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-                Организация массовых мероприятий в Санкт-Петербурге
+                Крутые события в Питере – это про нас! 🚀
               </h2>
               <p className="text-xl mb-8 text-white/90">
-                Профессиональная организация городских праздников, концертов,
-                фестивалей и корпоративных мероприятий. Полное сопровождение от
-                идеи до реализации.
+                Организуем легендарные праздники, зажигательные концерты и
+                мега-фестивали! От дикой идеи до идеального воплощения ✨
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -149,15 +150,15 @@ const Index = () => {
                   className="bg-white text-primary hover:bg-gray-100"
                 >
                   <Icon name="Calendar" className="h-5 w-5 mr-2" />
-                  Записаться на консультацию
+                  Забронить встречу 📅
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-white text-white hover:bg-white/10"
                 >
-                  <Icon name="FileText" className="h-5 w-5 mr-2" />
-                  Узнать больше
+                  <Icon name="Sparkles" className="h-5 w-5 mr-2" />
+                  Узнать всё про нас
                 </Button>
               </div>
             </div>
@@ -177,10 +178,10 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Наши услуги</h2>
+            <h2 className="text-3xl font-bold mb-4">Что мы делаем круто 🎯</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Мы предоставляем полный спектр услуг по организации массовых
-              мероприятий любого масштаба и сложности
+              Берём на себя всё – от мелких деталей до масштабных шоу! Любой
+              уровень сложности нам по плечу
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -210,10 +211,12 @@ const Index = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Виды мероприятий</h2>
+            <h2 className="text-3xl font-bold mb-4">
+              Какие события мы творим 🎪
+            </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Мы организуем все виды массовых мероприятий для жителей и гостей
-              Санкт-Петербурга
+              Любые форматы – от камерных встреч до городских фестивалей! Мы
+              знаем, как сделать незабываемо
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -245,7 +248,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Записаться на приём</h2>
+              <h2 className="text-3xl font-bold mb-6">
+                Давайте знакомиться! 👋
+              </h2>
               <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
                 <div className="flex items-center space-x-2">
                   <Icon
@@ -255,8 +260,8 @@ const Index = () => {
                   <p className="text-yellow-800 font-medium">Внимание!</p>
                 </div>
                 <p className="text-yellow-700 mt-2">
-                  Для приёма в офисе ОБЯЗАТЕЛЬНО НУЖНА ЗАПИСЬ, лучше за
-                  несколько дней!
+                  Запись обязательна! Лучше договориться заранее – мы очень
+                  популярны 😉
                 </p>
               </div>
               <div className="space-y-4">
@@ -347,9 +352,10 @@ const Index = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Пресс-центр</h2>
+            <h2 className="text-3xl font-bold mb-4">Наши новости 📰</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Последние новости и информация о предстоящих мероприятиях
+              Следите за нашими проектами и не пропускайте самые крутые события
+              города!
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
